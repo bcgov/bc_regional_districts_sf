@@ -1,16 +1,14 @@
-<!-- 
-Add a project state badge
 
-See <https://github.com/BCDevExchange/Our-Project-Docs/blob/master/discussion/projectstates.md> 
-If you have bcgovr installed and you use RStudio, click the 'Insert BCDevex Badge' Addin.
--->
+[![Lifecycle:Experimental](https://img.shields.io/badge/Lifecycle-Experimental-339999)]
 
 bc_regional_districts_sf
 ============================
 
 ### Usage
 
-Source file
+Creates a simple features representation of BCs regional districts. Intended usage is for choropleths, NOT geo-location:  Shapefile is based on an image, so coordinates are off. 
+
+To create sf dataframe source the file
 
 -   01\_load.R
 
