@@ -50,7 +50,8 @@ rd <- sf::st_read(here::here("data", "rd-polygon.shp"))[-c(33, 35), ] %>%
       "stikine",
       "northern_rockies"
     )
-  )
+  )%>%
+  select(id, regional_district, geometry)
 
 write_rds(rd, here::here("out", "bc_regional_districts_sf.rds"))
 
