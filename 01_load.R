@@ -17,7 +17,7 @@ rd <- sf::st_read(here::here("data", "rd-polygon.shp"))[-c(33, 35), ] %>%
     id = row_number(),
     regional_district = c(
       "capital",
-      "cowichan",
+      "cowichan_valley",
       "alberni_clayoquot",
       "nanaimo",
       "metro_vancouver",
@@ -41,7 +41,7 @@ rd <- sf::st_read(here::here("data", "rd-polygon.shp"))[-c(33, 35), ] %>%
       "cariboo",
       "central_coast",
       "north_coast",
-      "kitamat_stikine",
+      "kitimat_stikine",
       "fraser_fort_george",
       "bulkley_nechako",
       "north_coast",
